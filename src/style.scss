@@ -1,0 +1,113 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #10d4db;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+
+  & a {
+    text-decoration: none;
+    color: lightblue;
+  
+    &:hover {
+      color: red;
+    }
+  
+    &:active {
+      color: green;
+    }
+  
+    &:visited {
+      color: purple;
+    }
+  
+  }
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+#main{
+  &-header {
+    background-color: violet;
+    color: #ffffff;
+  }
+
+  &-footer {
+    background: lightblue;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+
+
+}
+
+#navbar {
+  background-color: black;
+  color: #ffffff;
+
+  & ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  & li {
+    display: inline;
+  }
+
+  & a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+  }
+  
+}
+
+
+
+#showcase {
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+
+  & h1 {
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+  }
+
+
+}
+
+/* add more styles here */
+
+
+
+.button {
+  background-color: #333333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+
+  &:hover {
+    background: red;
+    color: #ffffff;
+  }
+}
+
+.clr {
+  clear: both;
+}
